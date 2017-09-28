@@ -4,7 +4,7 @@ import os
 if os.environ.get("GCLOUD_PROJECT") is None: 
     os.environ["GCLOUD_PROJECT"] = "cyberagent-194" #prague-dev
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/container/credentials.json"
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/container/credentials.json"
 
 from googleapiclient import discovery
 from oauth2client.client import GoogleCredentials

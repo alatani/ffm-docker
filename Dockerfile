@@ -7,6 +7,5 @@ RUN pip install --upgrade pip && \
     pip install --upgrade -I setuptools && \
     pip install --ignore-installed -r requirements.txt
 
-ADD credentials.json .
-
+#ADD credentials.json .
 ADD ./src ./src
